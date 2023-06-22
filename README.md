@@ -11,7 +11,7 @@ There was some code clean up in this version, which made functions smaller and a
 ### **Instructions**
 To run this project you can use the 3 maps within the "maps" folder, or create your own with pearl.
 
-**1.** To **create a map** with pearl, run the following command:
+**1.** To **create a map** with pearl, run the following command: <br><br>
 **./Pearl {width} {height} {density} > {file}**
 
 ```sh
