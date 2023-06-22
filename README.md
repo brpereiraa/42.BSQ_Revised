@@ -29,3 +29,8 @@ $ Make
 ```sh
 $ ./bsq maps/map_40x30
 ```
+
+### **Disclaimer**
+**1.** This project was originally done during the piscine at 42Porto during the month of february of 2023. This subject could have changed but the general idea should still be the same.
+
+**2.** Also keep in mind this never got to be tested as it failed the first test and never ran the remaining tests on maulinette. 
