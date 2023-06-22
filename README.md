@@ -1,5 +1,5 @@
 # **BSQ_Revised**
-This project is a (possible) fix for the [BSQ](https://github.com/brpereiraa/42.piscine/tree/main/C/BSQ) during the piscine.  
+This project is a (possible) fix for the [BSQ](https://github.com/brpereiraa/42.piscine/tree/main/C/BSQ) done during the piscine.  
 
 ### **About**
 BSQ is about receiving a map with open spaces and obstacles and with the open spaces, creating the biggest square possible. If there is more than 1 square with the biggest length, than it should create to one furthest to the beggining of the map. 
@@ -15,5 +15,5 @@ To create with pearl, run the following command:
 **./Pearl {width} {height} {density} > {file}**
 
 ```sh
-	$./Pearl 40 30 3 > maps/map_40x30
+$./Pearl 40 30 3 > maps/map_40x30
 ```
