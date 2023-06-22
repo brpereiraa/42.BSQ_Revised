@@ -2,7 +2,7 @@
 This project is a (possible) fix for the [**BSQ**](https://github.com/brpereiraa/42.piscine/tree/main/C/BSQ) done during the piscine.  
 
 ### **About**
-BSQ is about receiving a map with open spaces and obstacles and with the open spaces, creating the biggest square possible. If there is more than 1 square with the biggest length, than it should create to one furthest to the beggining of the map. 
+BSQ is about receiving a map with open spaces and obstacles and with the open spaces, creating the biggest square possible. If there is more than 1 square with the same length, than it should create to one furthest to the beggining of the map. 
 
 During the piscine our project failed because we didn't take into consideration a 1x1 map and that was the first test so we failed BSQ. In this the 1x1 map works, however, the project never got to be tested and it might or might not be correct.
 
