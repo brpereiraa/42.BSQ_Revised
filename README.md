@@ -15,5 +15,17 @@ To run this project you can use the 3 maps within the "maps" folder, or create y
 **./Pearl {width} {height} {density} > {file}**
 
 ```sh
-$./Pearl 40 30 3 > maps/map_40x30
+$ ./Pearl 40 30 3 > maps/map_40x30
+```
+
+**2.** Now we need to **create the executable with make.** For this simply run make.
+
+```sh
+$ Make
+```
+
+**3.** At last we **run the executable** with the map we want to run as argument.
+
+```sh
+$ ./bsq maps/map_40x30
 ```
