@@ -6,7 +6,7 @@
 /*   By: brunolopes <brunolopes@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 11:43:57 by brpereir          #+#    #+#             */
-/*   Updated: 2023/06/23 09:44:32 by brunolopes       ###   ########.fr       */
+/*   Updated: 2023/06/23 13:19:05 by brunolopes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ void	verify_square(char *str, int len, int columns, int *arr)
 		len--;
 	}
 	arr[4] = 0;
+	write(1,"Map error\n", 10);
 }
 
 char	*print_square(char *str, int *arr, int width)

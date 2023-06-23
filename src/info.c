@@ -6,7 +6,7 @@
 /*   By: brunolopes <brunolopes@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/21 19:25:00 by bsousa-d          #+#    #+#             */
-/*   Updated: 2023/06/23 09:52:04 by brunolopes       ###   ########.fr       */
+/*   Updated: 2023/06/23 13:15:48 by brunolopes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,8 @@ void	print(char *str)
 	int	i;
 
 	i = -1;
+	if(!str[0])
+		write(1, "Map error\n", 10);
 	while (str[++i] != '\0')
 		write(1, &str[i], 1);
 	write(1, "\n", 1);
