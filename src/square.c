@@ -6,7 +6,7 @@
 /*   By: brunolopes <brunolopes@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 11:43:57 by brpereir          #+#    #+#             */
-/*   Updated: 2023/06/22 18:45:30 by brunolopes       ###   ########.fr       */
+/*   Updated: 2023/06/23 09:44:32 by brunolopes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,20 +72,3 @@ char	*print_square(char *str, int *arr, int width)
 	return (str);
 }
 
-void	rev_arg(char **maps, int size)
-{
-	int		i;
-	int		j;
-	char	*aux;
-
-	i = 1;
-	j = size - 1;
-	while (i <= size / 2)
-	{
-		aux = maps[i];
-		maps[i] = maps[j];
-		maps[j] = aux;
-		i++;
-		j--;
-	}
-}

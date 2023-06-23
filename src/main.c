@@ -6,7 +6,7 @@
 /*   By: brunolopes <brunolopes@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 23:56:25 by bsousa-d          #+#    #+#             */
-/*   Updated: 2023/06/22 15:19:04 by brunolopes       ###   ########.fr       */
+/*   Updated: 2023/06/23 09:49:26 by brunolopes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	main(int argc, char **argv)
 	}
 	else
 	{
-		run_default("maps/example_file");
+		run_default("./maps/map_120x20");
 	}
 	return (0);
 }

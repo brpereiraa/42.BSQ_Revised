@@ -6,7 +6,7 @@
 /*   By: brunolopes <brunolopes@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 18:45:01 by bsousa-d          #+#    #+#             */
-/*   Updated: 2023/06/22 16:16:06 by brunolopes       ###   ########.fr       */
+/*   Updated: 2023/06/23 09:50:36 by brunolopes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,25 +68,4 @@ void	run_default(char *file)
 	}
 	else
 		write(1, "map error\n", 10);
-}
-
-int	check_size_lenght(char *str, int second_line, int size)
-{
-	int	i;
-	int	j;
-
-	i = second_line;
-	while (str[i] != '\0')
-	{
-		j = 0;
-		while (str[i] != '\n')
-		{
-			i++;
-			j++;
-		}
-		if (++j != size)
-			return (0);
-		i++;
-	}
-	return (size);
 }
