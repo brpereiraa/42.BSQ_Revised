@@ -6,7 +6,7 @@
 /*   By: brunolopes <brunolopes@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 18:45:01 by bsousa-d          #+#    #+#             */
-/*   Updated: 2023/06/23 09:50:36 by brunolopes       ###   ########.fr       */
+/*   Updated: 2023/06/23 11:52:44 by brunolopes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	run_code(int argc, char **argv)
 		check_info(str, arr);
 		if (map_width(str) == 0 || arr[6] == 0)
 		{
-			write(1, "map error\n", 10);
+			write(1, "Map error\n", 10);
 			return ;
 		}
 		max = max_size(str, arr, map_width(str));
@@ -38,7 +38,7 @@ void	run_code(int argc, char **argv)
 		print(str);
 	}
 	else
-		write(1, "map error\n", 10);
+		write(1, "Map error\n", 10);
 }
 
 void	run_default(char *file)
@@ -56,7 +56,7 @@ void	run_default(char *file)
 		check_info(str, arr);
 		if (map_width(str) == 0 || arr[6] == 0)
 		{
-			write(1, "map error\n", 10);
+			write(1, "Map error\n", 10);
 			return ;
 		}
 		max = max_size(str, arr, map_width(str));
@@ -67,5 +67,5 @@ void	run_default(char *file)
 		print(str);
 	}
 	else
-		write(1, "map error\n", 10);
+		write(1, "Map error\n", 10);
 }

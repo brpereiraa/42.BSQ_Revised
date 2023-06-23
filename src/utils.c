@@ -6,7 +6,7 @@
 /*   By: brunolopes <brunolopes@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/23 09:13:10 by brunolopes        #+#    #+#             */
-/*   Updated: 2023/06/23 09:44:17 by brunolopes       ###   ########.fr       */
+/*   Updated: 2023/06/23 11:54:51 by brunolopes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,8 @@ int	whitespaces(char *str, int *ptr_i)
 		i++;
 	while (str[i] && (str[i] == 43 || str[i] == 45))
 	{
-		if (str[i] == 45)
+		if (str[i++] == 45)
 			count *= -1;
-		i++;
 	}
 	*ptr_i = i;
 	return (count);
@@ -59,9 +58,7 @@ void	rev_arg(char **maps, int size)
 	while (i <= size / 2)
 	{
 		aux = maps[i];
-		maps[i] = maps[j];
-		maps[j] = aux;
-		i++;
-		j--;
+		maps[i++] = maps[j];
+		maps[j--] = aux;
 	}
 }
